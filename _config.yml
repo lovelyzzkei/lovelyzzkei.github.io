@@ -57,3 +57,7 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+# url
+url: "http://lovelyzzkei.github.io"
+#baseurl: "my-baseurl"
