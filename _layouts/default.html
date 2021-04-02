@@ -161,6 +161,16 @@
       {%- endif -%}
       {% endcapture %}
       {{ footer }}
+
+      <!--category-->
+      <div class="col-lg-4 col-md-2">
+        <ul>
+        {% for category in site.categories %}
+          <li><a href="/category{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+
     </section>
     <section class="content">
       {{ content }}
@@ -182,7 +192,7 @@
     gtag('config', '{{ site.plainwhite.analytics_id }}');
   </script>
   {%- endif -%}
-
+  
   {% if site.plainwhite.search %}
   <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/search.js" | relative_url }}"></script>
