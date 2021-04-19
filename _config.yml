@@ -61,3 +61,10 @@ plugins:
 # url
 url: "http://lovelyzzkei.github.io"
 #baseurl: "my-baseurl"
+
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
