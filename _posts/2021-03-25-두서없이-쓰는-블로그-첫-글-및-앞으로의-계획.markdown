@@ -3,6 +3,9 @@ layout: post
 title:  "두서없이 쓰는 블로그 첫 글 및 앞으로의 계획"
 date:   2021-03-25 16:42 +1800
 categories: 일상
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 
