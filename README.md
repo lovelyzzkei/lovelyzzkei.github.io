@@ -11,6 +11,9 @@
 + 21.03.27 ~ 21.04.14: [모두를 위한 딥러닝](https://www.youtube.com/results?search_query=%EB%AA%A8%EB%91%90%EB%A5%BC+%EC%9C%84%ED%95%9C+%EB%94%A5%EB%9F%AC%EB%8B%9D) 완강.
 + 21.04.15 ~ 현재: [딥러닝을 위한 자연어 처리 입문](https://wikidocs.net/book/2155) 공부중.
 
+## 포스팅 목록
++ [모두를 위한 딥러닝](https://lovelyzzkei.github.io/category/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC_%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94_%EA%B8%B0%EC%88%A0)
++ [딥러닝을 위한 자연어 처리 입문](https://lovelyzzkei.github.io/category/%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%9E%90%EC%97%B0%EC%96%B4_%EC%B2%98%EB%A6%AC)
 ## 앞으로 공부할 예정인 것
 + 책 빅데이터를 지탱하는 기술 정독.
 + 캐글(Kaggle) 공부
