@@ -68,3 +68,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+
+disqus_shortname: lovelyzzkei-github-io
