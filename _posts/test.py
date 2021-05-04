@@ -1,5 +1,13 @@
-for x in range(1, 11):
-    for y in range(1, 11):
-        if 4*x + 5*y == 60:
-            print(x, y)
-            
+import pandas as pd
+from sklearn.datasets import fetch_20newsgroups
+
+newsdata = fetch_20newsgroups(subset='train')
+
+print(newsdata.keys())
+print(newsdata.data[:5])
+print(newsdata.target[:5])
+print(newsdata.target_names)
+
+data = pd.DataFrame(data=newsdata.data, columns=['email'])
+data['target'] = pd.Series(newsdata.target) # 데이터프레임에 'target'열 추가
+print(data[:5])
