@@ -27,7 +27,7 @@ img,
 embed,
 object,
 video {
-  max-width: 100%;
+  max-width: 60%;
 }
 
 a {
@@ -72,7 +72,7 @@ main {
     @media screen and (min-width: $mobileW + 1) {
       max-width: calc(100% - #{$leftWidth});
       margin-left: $leftWidth;
-      width: 100%;
+      width: 80%;
     }
   }
   .about {
@@ -223,8 +223,8 @@ main {
 
 .post-title {
   line-height: 1.2em;
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 32px;
+  margin-bottom: 15px;
 }
 .posts,
 .post-container {
@@ -244,7 +244,7 @@ main {
 }
 .post {
   font-family: "Merriweather", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   color: #222;
   line-height: 1.9em;
   p {
