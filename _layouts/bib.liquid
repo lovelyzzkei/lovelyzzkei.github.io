@@ -140,7 +140,7 @@
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+      {% capture entrymonth %}{{ " " }}{{ entry.month }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{entrytype}}{{ ", " }}{{entry.location}}{% endcapture %}
