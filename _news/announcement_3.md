@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-07-06 17:25:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+The paper "Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices" has been conditionally accepted to MobiCom 2024!
