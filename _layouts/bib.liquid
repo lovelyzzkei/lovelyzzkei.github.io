@@ -61,7 +61,7 @@
         {%- endif -%}
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
+        {%- if site.data.coauthors[clean_last_name] -%}
           {%- for coauthor in site.data.coauthors[clean_last_name] -%}
             {% if coauthor.firstname contains author.first %}
               {%- assign coauthor_url = coauthor.url -%}
@@ -86,8 +86,8 @@
               {{ author.last -}}
             </a>
           {%- else -%}
-            {{ author.first }}
-            {{ author.last }}
+            {{- author.first }}
+            {{ author.last -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -132,8 +132,8 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
-    {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+    {%- elsif proceedings contains entry.type -%}
+      {%- capture entrytype -%}<em>In {{entry.booktitle -}}</em> {%- endcapture -%}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
     {% else %}
@@ -143,7 +143,7 @@
       {% capture entrymonth %}{{ " " }}{{ entry.month }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
-      {% capture entrytype %}{{entrytype}}{{ ", " }}{{entry.location}}{% endcapture %}
+      {% capture entrytype %}{{entrytype}}{{ " " }}{{entry.location}}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
       {% capture entrytype %}{{entrytype}}{{entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
@@ -153,7 +153,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %} {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
