@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was selected for a project funded by the National Research Foundation of Korea (NRF).
+I received a M.S. Fellowship from the National Research Foundation of Korea (NRF).
