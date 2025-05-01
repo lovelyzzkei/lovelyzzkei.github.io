@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://github.com/lovelyzzkei'>GitHub</a> | <a href='https://www.linkedin.com/in/chanyoung-jung-11b745283/'>LinkedIn</a> | <a href='/assets/pdf/resume_250409.pdf'>CV</a>
+subtitle: <a href='https://github.com/lovelyzzkei'>GitHub</a> | <a href='https://www.linkedin.com/in/chanyoung-jung-11b745283/'>LinkedIn</a> | <a href='/assets/pdf/Resume_250430.pdf'>CV</a>
 
 profile:
   align: right
