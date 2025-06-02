@@ -42,7 +42,7 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2 style="margin-top:30px">News</h2>
+      <h2 style="margin-top:30px">📰 News</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -56,7 +56,7 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 style="margin-top:30px">Publications <span style="font-size:0.45em;">(*co-primary author)</span></h2>
+      <h2 style="margin-top:30px">📚 Publications <span style="font-size:0.45em;">(*co-primary author)</span></h2>
       {% include selected_papers.liquid %}
     {% endif %}
   </article>
