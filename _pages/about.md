@@ -6,7 +6,7 @@ subtitle: <a href='https://github.com/lovelyzzkei'>GitHub</a> | <a href='https:/
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_la.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -18,9 +18,9 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I’m **Chanyoung Jung**. Welcome to my site!
 
-I am an M.S. candidate in Computer Science at **Yonsei University**, Seoul, South Korea, where I am a member of the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/) advised by **Prof. Hojung Cha**. I earned my B.S. degree in Computer Science from Yonsei University in 2024, graduating *Cum Laude* (Top 5/67).
+I am an M.S. student in Computer Science at **Yonsei University**, Seoul, South Korea, where I am a member of the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/) advised by **Prof. Hojung Cha**. I earned my B.S. degree in Computer Science from Yonsei University in 2024, graduating *Cum Laude* (Top 5/67).
 
-My research focuses on **on-device machine learning**, especially optimizing **heterogeneous mobile processors** for **3D vision** and **vision foundation models** (VFMs) on resource-constrained devices. I am passionate about bridging cutting-edge AI models with real-world mobile systems.  
+My research focuses on **on-device AI**, especially optimizing complex AI workloads such as **3D vision** and **vision foundation models** (VFMs) on resource-constrained devices by utilizing **heterogeneous mobile processors**. I am passionate about bridging cutting-edge AI models with real-world mobile systems.  
 <br/>
 
 ## 🎓 Education
