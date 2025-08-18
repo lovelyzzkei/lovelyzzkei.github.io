@@ -219,8 +219,15 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.teaser %}
+        <a href="{{ entry.teaser }}" class="btn btn-sm z-depth-0" role="button">Teaser</a>
+      {% endif %}
+      {% if entry.presentation %}
+        <a href="{{ entry.presentation }}" class="btn btn-sm z-depth-0" role="button">Presentation</a>
+      {% endif %}
+      
       {% if entry.award %}
-        <a class="award abstract btn btn-sm z-depth-0" role="button" style="background-color: #ebaf0a; color: white !important; cursor: default; padding: 0.3rem 0.6rem;">🏆 {{ entry.award }}</a>
+        <span class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" style="background-color: #ebaf0a; color: white !important; cursor: default; padding: 0.2rem 0.6rem;">🏆 {{ entry.award }}</span>
         {% comment %} <a class="award btn btn-sm z-depth-0" role="button">{{ entry.award_name ? entry.award_name : "Awarded" }}</a> {% endcomment %}
       {% endif %}
     </div>
