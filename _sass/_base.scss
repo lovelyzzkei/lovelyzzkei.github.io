@@ -60,6 +60,69 @@ img {
   max-width: 90vw;
 }
 
+// Award picture tooltip styles
+.award-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.award-pic-tooltip {
+  display: none;
+  position: absolute;
+  top: -160px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  white-space: nowrap;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+  }
+
+  .award-title {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--global-text-color-light);
+    white-space: normal;
+  }
+
+  // Arrow pointing down
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--global-bg-color);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 7px solid transparent;
+    border-top-color: var(--global-divider-color);
+    margin-top: 1px;
+  }
+}
+
+.award-badge:hover .award-pic-tooltip {
+  display: block;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);

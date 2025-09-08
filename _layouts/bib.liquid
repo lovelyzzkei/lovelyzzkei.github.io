@@ -227,7 +227,15 @@
       {% endif %}
       
       {% if entry.award %}
-        <span class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" style="background-color: #ebaf0a; color: white !important; cursor: default; padding: 0.2rem 0.6rem;">🏆 {{ entry.award }}</span>
+        <span class="award-badge btn btn-sm z-depth-0 waves-effect waves-light" role="button" style="background-color: #ebaf0a; color: white !important; cursor: default; padding: 0.2rem 0.6rem;">
+          🏆 {{ entry.award }}
+          {% if entry.award_pic %}
+            <div class="award-pic-tooltip">
+              <img src="{{ entry.award_pic }}" alt="{{ entry.award }}">
+              <div class="award-title">{{ entry.award }}</div>
+            </div>
+          {% endif %}
+        </span>
         {% comment %} <a class="award btn btn-sm z-depth-0" role="button">{{ entry.award_name ? entry.award_name : "Awarded" }}</a> {% endcomment %}
       {% endif %}
     </div>
