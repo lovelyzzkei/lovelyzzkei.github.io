@@ -2,15 +2,23 @@
 ---
 @inproceedings{vega,
   title={Vega: Fully Immersive Mobile Volumetric Video Streaming with 3D Gaussian Splatting},
-  author={Kim*, Gunjoong and Park*, Seonghoon and Lee, Jeho and Jung, Chanyoung and Jun, Hyungchol and Cha, Hojung},
-  booktitle={The 31st Annual International Conference on Mobile Computing and Networking},
-  year={2025},
-  abstract={TBD},
-  pdf={},
-  location={(ACM MobiCom 2025)},
-  note={Acceptance ratio: 36/348=10.3%}, 
-  abbr={MobiCom '25},
-  selected={true},
+  author = {Kim*, Gunjoong and Park*, Seonghoon and Lee, Jeho and Jung, Chanyoung and Jun, Hyungchol and Cha, Hojung},
+  year = {2025},
+  isbn = {9798400711299},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  pdf = {https://doi.org/10.1145/3680207.3765267},
+  doi = {10.1145/3680207.3765267},
+  abstract = {For highly immersive mobile volumetric video streaming, it is essential to deliver photo-realistic full-scene content with smooth playback. Unlike traditional representations such as point clouds, 3D Gaussian Splatting (3DGS) has gained attention for its ability to represent high-quality full-scene 3D content. However, our preliminary experiments show that existing methods for 3DGS-based videos fail to achieve smooth playback on mobile devices. In this paper, we propose Vega, a 3DGS-based photo-realistic full-scene volumetric video streaming system that ensures real-time playback on mobile devices. The core idea behind Vega's real-time rendering is object-level selective computation, which allocates computational resources to visually important objects to meet strict rendering deadlines. To enable mobile streaming based on the selective computation, Vega addresses two challenges: (1) designing an encoding scheme that optimizes the data size of videos while being compatible with object-level prioritization, and (2) developing a rendering pipeline that efficiently operates on resource-constrained mobile devices. We implemented an end-to-end Vega system, consisting of a streaming server and an Android application. Experimental results on commodity smartphones show that Vega achieves 30 frames per second (FPS) for full-scene volumetric video streaming while maintaining competitive data size and visual quality compared to existing baselines.},
+  booktitle = {Proceedings of the 31st Annual International Conference on Mobile Computing and Networking},
+  pages = {1106–1120},
+  numpages = {15}, 
+  selected = {true},
+  keywords = {mobile volumetric video streaming, real-time rendering, 3D gaussian splatting},
+  location = {(ACM MobiCom 2025)},
+  note = {Acceptance ratio: 36/348=10.3%, winter round},
+  abbr = {MobiCom '25},
+  preview={mobicom25_vega.png},
 }
 
 
@@ -28,7 +36,8 @@
   teaser={https://www.youtube.com/watch?v=8g8eSjhRaiU},
   presentation={https://www.youtube.com/watch?v=kxos6AXShIU&t=997s},
   award={Best Paper Award},
-  award_pic={/assets/img/mobisys25_aria_bp.jpg}
+  award_pic={/assets/img/mobisys25_aria_bp.jpg},
+  preview={mobisys25_aria.png},
 }
 
 @inproceedings{panopticus,
@@ -41,5 +50,6 @@
   pdf={https://dl.acm.org/doi/pdf/10.1145/3636534.3690688},
   note={Acceptance ratio: 103/494=20.85%}, 
   abbr={MobiCom '24},
-  selected={true}
+  selected={true},
+  preview={mobicom24_panopticus.png},
 }

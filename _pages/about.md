@@ -20,7 +20,7 @@ Hi, I’m **Chanyoung Jung**. Welcome to my site!
 
 I am an M.S. student in Computer Science at Yonsei University, Seoul, South Korea, where I am a member of the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/) advised by Prof. Hojung Cha. I earned my B.S. degree in Computer Science from Yonsei University in 2024, graduating with *High Honors* (Top 6/106).
 
-My research focuses on **Optimizing complex AI workloads on resource-constrained devices**, especially On-device AI with 3D vision and vision Foundation Models (VFMs) by utilizing **heterogeneous processors**. I am passionate about bridging cutting-edge AI models with real-world mobile/edge enviornments.  
+My research focuses on **Optimizing complex AI workloads on resource-constrained devices**. I have an experience on on-device AI with 3D vision and vision Foundation Models (VFMs) by utilizing **heterogeneous processors**. I am passionate about bridging cutting-edge AI models with real-world mobile/edge enviornments.  
 <br/>
 
 ## 🎓 Education
