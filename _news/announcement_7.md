@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work, "Vega: Fully Immersive Mobile Volumetric Video Streaming with 3D Gaussian Splatting", has been accepted to MobiCom 2025!
+Our work, "Vega: Fully Immersive Mobile Volumetric Video Streaming with 3D Gaussian Splatting", has been accepted to MobiCom 2025.
