@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://github.com/lovelyzzkei'>GitHub</a> | <a href='https://www.linkedin.com/in/chanyoung-jung-11b745283/'>LinkedIn</a> | <a href='/assets/pdf/Resume_250928.pdf'>Resume</a>
+subtitle: <a href='https://github.com/lovelyzzkei'>GitHub</a> | <a href='https://www.linkedin.com/in/chanyoung-jung-11b745283/'>LinkedIn</a> | <a href='/assets/pdf/Resume_260307.pdf'>Resume</a>
 
 profile:
   align: right
@@ -18,14 +18,17 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I’m **Chanyoung Jung**. Welcome to my site!
 
-I am an M.S. student in Computer Science at Yonsei University, Seoul, South Korea, where I am a member of the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/) advised by Prof. Hojung Cha. I earned my B.S. degree in Computer Science from Yonsei University in 2024, graduating with *High Honors* (Top 6/106).
+I am an **AI Software Engineer at FuriosaAI**, currently a member of the Platform Team. Our mission is to enable AI developers to efficiently deploy optimized AI models on FuriosaAI's NPUs.
 
-My research focuses on **Optimizing complex AI workloads on resource-constrained devices**. I have an experience on on-device AI with 3D vision and vision Foundation Models (VFMs) by utilizing **heterogeneous processors**. I am passionate about bridging cutting-edge AI models with real-world mobile/edge enviornments.  
+Previously joined to FuriosaAI, I earned my M.S and B.S (with High Honors) in Computer Science from Yonsei University, where I was a member of the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/) advised by Prof. Hojung Cha. During this time, I was honored to receive the Best Paper Award at ACM MobiSys 2025.
+
+My research focused on **NPU-aware Systems for On-Device Vision AI**. I optimized Vision Foundation Models (VFMs) through GPU-NPU heterogeneous computing (ARIA) and developed NPU-specific optimizations (viNPU) to maximize Vision Transformer efficiency by overcoming architectural bottlenecks.
+<br/>
 <br/>
 
-## 🎓 Education
+## Education
 **M.S. in Computer Science and Engineering**  
-*Yonsei University (2024–Present)*  
+*Yonsei University (2024-2026)*  
 **B.S. in Computer Science and Engineering**  
 *Yonsei University (2018–2024) — Graduated with High Honors, GPA 4.24/4.50*
 
