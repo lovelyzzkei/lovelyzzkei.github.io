@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work and my last work at MOBED, "viNPU: Optimizing Vision Transformer Inference on Mobile NPUs", has been accepted to EuroSys 2026!
+Our work and my last work at MOBED, "viNPU: Optimizing Vision Transformer Inference on Mobile NPUs", has been accepted to **EuroSys 2026.**

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work ARIA, presented at ACM MobiSys 2025, has been invited and published in ACM GetMobile 2025.
+Our work ARIA, presented at ACM MobiSys 2025, has been invited and published in **ACM GetMobile 2025**.
